@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Terraform & CDK
+.terraform/
+terraform-cdk/imports/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+cdktf.out/
+cdktf.log
+dist/
+imports/*
+!imports/__init__.py
+
+# IDE
+.idea/
+.vscode/
